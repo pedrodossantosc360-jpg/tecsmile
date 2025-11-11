@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadrasto</title>
+    
+    <style>
+        body{background-color: black;}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+p{
+    color: white;
+}
+
+label{color: white;}
+h1{
+    color: white;
+}
+#su{
+    border-radius: 7px 25px 6px 25px;
+    background-color: blue;
+    transition: 1s;
+
+}
+#su:hover{
+    background-color: blueviolet;
+    transition: 1s;
+    
+    color: blue;
+    border-radius: 25px 25px 25px 25px;
+   
+}
+    </style>
+</head>
+<body>
+    <img src="imagens/smileimage.jpg" alt="erro" align="center">
+    <div id="o1">
+   <div align="center" id="normal"> <h1>faça seu cadrasto</h1>
+    <p>nao encrotamos seu cadrasto crie um agora</p>
+    <div id="normal">
+   <div id="especial" align="center">
+    <form action="scripts/introduzindo.php" method="post">
+    <div align="center">   <label for="email">email</label>
+    <input type="email" name="email" id="cad" align="center"></div>
+    <div align="center"><label for="nome">nome</label>
+    <input type="text" name="nome" id="no" align="center"></div>
+    <div align="center"><label for="senha">senha</label>
+    <input type="password" name="senha" align="center"></div>
+    <div align="center"><input type="submit" value="enviar" align ="center" id="su"></form>
+    </div></div></div></div>
+    <script>
+        window.alert('não encotramos seu cadrasto!')
+    </script>
+    
+</body>
+</html>
